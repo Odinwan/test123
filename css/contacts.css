@@ -1,0 +1,88 @@
+#contacts {
+  background: url("../img/contacts/ContactsBG.png");
+}
+#contacts .position {
+  padding: 133px 0px 91px 0px;
+}
+#WrapCircle {
+  position: absolute;
+  top: 26px;
+  left: 131px;
+  z-index: -1;
+}
+#contacts .wrap {
+  background: white;
+  width: fit-content;
+  height: fit-content;
+  margin: 0px auto;
+}
+#contacts .wrap .content {
+  padding: 74px 131px 65px 200px;
+  position: relative;
+  z-index: 1;
+}
+#contacts .wrap .content .contacts_items {
+  display: grid;
+  grid-template-columns: 300px 300px;
+  column-gap: 24px;
+  row-gap: 24px;
+}
+#contacts .wrap .content h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000000;
+  margin-bottom: 43px;
+}
+#contacts .wrap .content .contacts_items .contacts_item {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #979797;
+  padding: 5px 0px;
+}
+#contacts .wrap .content .contacts_items .contacts_item input::placeholder {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  opacity: 0.9;
+  color: rgba(0, 0, 0, 0.87);
+}
+#contacts .wrap .content .contacts_items .contacts_item label {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.54);
+}
+#contacts .wrap .content .contacts_footer {
+  display: grid;
+  grid-template-columns: 345px 200px;
+  column-gap: 96px;
+  margin-top: 24px;
+}
+#contacts .wrap .content .contacts_footer p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #0b0b0b;
+  padding-right: 30px;
+}
+#contacts .wrap .content .contacts_footer a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #0b0b0b;
+  text-decoration: underline;
+}
+#contacts .wrap .content .contacts_footer .my_button {
+  padding: 6px 40px;
+}

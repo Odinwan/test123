@@ -1,0 +1,53 @@
+#steps {
+  background: #651fff;
+}
+#steps .number {
+  position: relative;
+}
+#steps h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  color: #ffffff;
+  padding: 49px 0px 61px 0px;
+}
+#steps .number span {
+  position: absolute;
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  left: 25px;
+  bottom: 17px;
+}
+#steps .steps_items .steps_item p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  color: #fefefe;
+}
+#steps .steps_items {
+  display: flex;
+  column-gap: 30px;
+  padding-bottom: 80px;
+}
+#steps .steps_items .steps_item {
+  display: grid;
+  grid-template-columns: 62px 180px 52px;
+  column-gap: 20px;
+}
+#steps .steps_items .steps_item img {
+  margin: auto 0;
+  margin-right: 10px;
+}
